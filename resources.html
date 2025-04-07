@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Hawaiian Gods</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: url('https://images.pexels.com/photos/1029611/pexels-photo-1029611.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-amber-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <h1 class="text-3xl font-bold">Hawaiian Gods</h1>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="index.html" class="hover:text-amber-200 font-medium">Home</a></li>
+                        <li><a href="kane.html" class="hover:text-amber-200">Kane</a></li>
+                        <li><a href="kanaloa.html" class="hover:text-amber-200">Kanaloa</a></li>
+                        <li><a href="pele.html" class="hover:text-amber-200">Pele</a></li>
+                        <li><a href="lono.html" class="hover:text-amber-200">Lono</a></li>
+                        <li><a href="ku.html" class="hover:text-amber-200">Ku</a></li>
+                        <li><a href="resources.html" class="hover:text-amber-200">Resources</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-200">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-96 flex items-center justify-center text-white">
+        <div class="text-center bg-black bg-opacity-50 p-8 rounded-lg">
+            <h2 class="text-5xl font-bold mb-4">Resources</h2>
+            <p class="text-xl">Learn more about Hawaiian mythology and culture</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-amber-800">Educational Materials</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Book Resource -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden resource-card transition duration-300">
+                    <img src="https://images.pexels.com/photos/1926988/pexels-photo-1926988.jpeg" alt="Books" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Recommended Books</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><i class="fas fa-book mr-2 text-amber-600"></i> Hawaiian Mythology by Martha Beckwith</li>
+                            <li><i class="fas fa-book mr-2 text-amber-600"></i> Pele and Hi'iaka by Nathaniel Emerson</li>
+                            <li><i class="fas fa-book mr-2 text-amber-600"></i> The Kumulipo (Hawaiian Creation Chant)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Website Resource -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden resource-card transition duration-300">
+                    <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg" alt="Websites" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Online Resources</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><i class="fas fa-globe mr-2 text-amber-600"></i> <a href="https://www.bishopmuseum.org" class="hover:text-amber-700" target="_blank">Bishop Museum</a></li>
+                            <li><i class="fas fa-globe mr-2 text-amber-600"></i> <a href="https://www.hawaiianencyclopedia.com" class="hover:text-amber-700" target="_blank">Hawaiian Encyclopedia</a></li>
+                            <li><i class="fas fa-globe mr-2 text-amber-600"></i> <a href="https://www.nps.gov/hawaii" class="hover:text-amber-700" target="_blank">National Park Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Video Resource -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden resource-card transition duration-300">
+                    <img src="https://images.pexels.com/photos/2986189/pexels-photo-2986189.jpeg" alt="Videos" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Video Content</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><i class="fab fa-youtube mr-2 text-amber-600"></i> <a href="https://www.youtube.com" class="hover:text-amber-700" target="_blank">Hawaiian Legends Playlist</a></li>
+                            <li><i class="fab fa-youtube mr-2 text-amber-600"></i> <a href="https://www.youtube.com" class="hover:text-amber-700" target="_blank">Pele Documentary</a></li>
+                            <li><i class="fab fa-youtube mr-2 text-amber-600"></i> <a href="https://www.youtube.com" class="hover:text-amber-700" target="_blank">Hula Performances</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16">
+                <h2 class="text-3xl font-bold mb-8 text-center text-amber-800">Academic References</h2>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Research Papers</h3>
+                    <ul class="space-y-4 list-disc pl-5 text-gray-600">
+                        <li>"The Hawaiian Gods: A Study in Polynesian Religion" - Journal of Pacific Studies</li>
+                        <li>"Pele: Volcanic Deity and Cultural Symbol" - University of Hawaii Press</li>
+                        <li>"The Kumulipo: Analysis of the Hawaiian Creation Chant" - Pacific Historical Review</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2023 Hawaiian Gods Website. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-amber-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-amber-300"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/imi.frm808" class="hover:text-amber-300" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
